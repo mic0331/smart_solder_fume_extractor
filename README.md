@@ -33,6 +33,11 @@ STM32L476RGT6 using a [nucleo-L476RG](https://os.mbed.com/platforms/ST-Nucleo-L4
 
 [Honeywell HPM Standard particulate matter sensor (32322550)](https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/particulate-matter-sensors-hpm-series/documents/sps-siot-particulate-hpm-series-datasheet-32322550-ciid-165855.pdf) - UART
 
+The Honeywell HPM Series Particulate Matter Sensor is a laser-based sensor which detects and counts particles using light scattering. The detection concentration range is
+0 μg/m3 to 1,000 μg/m3. A laser light source illuminates a particle as it is pulled through the detection chamber. As particles pass through the laser beam, the light reflects 
+off the particles and is recorded on the photo or light detector. The light is then analyzed and converted to an electrical signal to calculate particle concentration. The Honeywell 
+particle sensor provides information on the particle concentration for given particle concentration range.
+
 ### Display
 
 [LCD1602 LCD module](http://wiki.sunfounder.cc/index.php?title=LCD1602_Module) - I2C
@@ -44,3 +49,11 @@ STM32L476RGT6 using a [nucleo-L476RG](https://os.mbed.com/platforms/ST-Nucleo-L4
 ### PWM Fan
 
 Pulse-width modulated fan [Noctua NF-F12 PWM](https://www.amazon.fr/gp/product/B00650P2ZC/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1)
+
+### Power System
+
+TODO
+
+For the development phase, two bench power supply will be used to power
+the fan (12 VDC) and the sensor & display (5 VDC).
+The MCU will be powed by the connected computer.
