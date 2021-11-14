@@ -19,8 +19,9 @@ Finally they can display the total execution time and a percentage of the filter
 
 ## High-level Block Diagram
 
-![Flow Diagram](doc/flow.jpg)
-![Bloc Diagram](doc/bloc.jpg)
+![Flow Diagram](https://github.com/mic0331/smart_solder_fume_extractor/blob/main/doc/flow.png)
+
+![Bloc Diagram](https://github.com/mic0331/smart_solder_fume_extractor/blob/main/doc/bloc.png)
 
 ## Main Components
 
